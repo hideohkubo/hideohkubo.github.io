@@ -227,8 +227,11 @@ section {
 }
 
 @media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
   .container {
-    padding: 20px;
+    padding: 15px;
   }
   .personal-info {
     flex-direction: column;
