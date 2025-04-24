@@ -10,16 +10,32 @@
     <div id="cv" class="container">
         <header>
             <h1>Curriculum Vitae</h1>
-            <form name='lang_switch'>
-                <ul class="lang_switch">
-                    <li>
-                        <label><input type='radio' name='lang' value='ja' checked>日本語</label>
+            <nav class="page-nav">
+                <ul>
+                    <li class="active">
+                        <a href="index.html">
+                            <span class="lang" lang="ja">履歴</span>
+                            <span class="lang" lang="en">CV</span>
+                        </a>
                     </li>
                     <li>
-                        <label><input type='radio' name='lang' value='en'>English</label>
+                        <a href="projects.html">
+                            <span class="lang" lang="ja">作品</span>
+                            <span class="lang" lang="en">Projects</span>
+                        </a>
                     </li>
                 </ul>
-            </form>
+                <form name='lang_switch'>
+                    <ul class="lang_switch">
+                        <li>
+                            <label><input type='radio' name='lang' value='ja' checked>日本語</label>
+                        </li>
+                        <li>
+                            <label><input type='radio' name='lang' value='en'>English</label>
+                        </li>
+                    </ul>
+                </form>
+            </nav>
         </header>
         
         <div class="personal-info">
@@ -46,42 +62,6 @@
                 </span>
             </div>
         </div>
-        
-        <section>
-            <h2>Education</h2>
-            <div class="timeline-item">
-                <div class="timeline-period">1977-1981</div>
-                <div class="timeline-content ml">
-                    <h4>
-                        <span class="lang" lang="ja">独協大学</span>
-                        <span class="lang" lang="en">Dokkyo University</span>
-                    </h4>
-                    <ul>
-                        <li>
-                            <span class="lang" lang="ja">英語学科 ‒ 比較言語学、社会学、その他</span>
-                            <span class="lang" lang="en">Department of English - Comparative Linguistics, Sociology, and other subjects</span>
-                        </li>
-                        <li>Bachelor of English degree</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-period">1974-1976</div>
-                <div class="timeline-content ml">
-                    <h4>
-                        <span class="lang" lang="ja">東京工業大学附属高等学校</span>
-                        <span class="lang" lang="en">Tokyo Institute of Technology High School</span>
-                    </h4>
-                    <ul>
-                        <li>
-                            <span class="lang" lang="ja">電気工学</span>
-                            <span class="lang" lang="en">Electrical Engineering</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
         <section>
             <h2>Work Experience</h2>
             <div class="timeline-item">
@@ -273,37 +253,78 @@
                         </li>
                     </ul>
                 </div>
-            
             </div>
-            
         </section>
         
         <section>
             <h2>Skills</h2>
-            <ul>
-                <li>
-                    <span class="lang" lang="ja">コピーライティング</span>
-                    <span class="lang" lang="en">Copywriting</span>
-                </li>
-                <li>
-                    <span class="lang" lang="ja">ウェブデザイン</span>
-                    <span class="lang" lang="en">Web Design</span>
-                </li>
-                <li>
-                    <span class="lang" lang="ja">プログラミング（HTML/CSS, JavaScript, PHP, Python）</span>
-                    <span class="lang" lang="en">Programming (HTML/CSS, JavaScript, PHP, Python)</span>
-                </li>
-            </ul>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <ul>
+                        <li>
+                            <span class="lang" lang="ja">コピーライティング</span>
+                            <span class="lang" lang="en">Copywriting</span>
+                        </li>
+                        <li>
+                            <span class="lang" lang="ja">ウェブデザイン</span>
+                            <span class="lang" lang="en">Web Design</span>
+                        </li>
+                        <li>
+                            <span class="lang" lang="ja">プログラミング（HTML/CSS, JavaScript, PHP, Python）</span>
+                            <span class="lang" lang="en">Programming (HTML/CSS, JavaScript, PHP, Python)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="timeline-item">
+                <div class="timeline-period">1977-1981</div>
+                <div class="timeline-content ml">
+                    <h4>
+                        <span class="lang" lang="ja">独協大学</span>
+                        <span class="lang" lang="en">Dokkyo University</span>
+                    </h4>
+                    <ul>
+                        <li>
+                            <span class="lang" lang="ja">英語学科 ‒ 比較言語学、社会学、その他</span>
+                            <span class="lang" lang="en">Department of English - Comparative Linguistics, Sociology, and other subjects</span>
+                        </li>
+                        <li>Bachelor of English degree</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-period">1974-1976</div>
+                <div class="timeline-content ml">
+                    <h4>
+                        <span class="lang" lang="ja">東京工業大学附属高等学校</span>
+                        <span class="lang" lang="en">Tokyo Institute of Technology High School</span>
+                    </h4>
+                    <ul>
+                        <li>
+                            <span class="lang" lang="ja">電気工学</span>
+                            <span class="lang" lang="en">Electrical Engineering</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
         
         <section>
             <h2>Languages</h2>
-            <ul>
-                <li>
-                    <span class="lang" lang="ja">英語（ビジネスレベル）</span>
-                    <span class="lang" lang="en">English (Business Level)</span>
-                </li>
-            </ul>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <ul>
+                        <li>
+                            <span class="lang" lang="ja">英語（ビジネスレベル）</span>
+                            <span class="lang" lang="en">English (Business Level)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </div>
     
