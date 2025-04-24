@@ -239,7 +239,7 @@ section {
   .timeline-item {
     flex-direction: column;
   }
-  .timeline-content {
+  .timeline-period {
     margin-top: -80px;
   }
   .timeline-content.ml {
